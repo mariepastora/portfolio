@@ -1,0 +1,21 @@
+html{
+	background: radial-gradient( farthest-corner at 20px 20px,
+	#E8998D 0%, #EED2CC 20%, #FBF7F4 100%);	
+}
+
+
+@font-face {
+    font-family: "Handjet";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(""), url("fonts/Handjet-SemiBold.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Quantico";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(""), url("fonts/Quantico-Regular.ttf") format("opentype");
+  }
