@@ -9,7 +9,7 @@ html{
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local(""), url("../fonts/Handjet-SemiBold.ttf") format("opentype");
+    src:  url("../fonts/Handjet-SemiBold.ttf") format("opentype");
   }
 
   @font-face {
@@ -17,5 +17,5 @@ html{
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local(""), url("../fonts/Quantico-Regular.ttf") format("opentype");
+    src:  url("./fonts/Quantico-Regular.ttf") format("opentype");
   }
