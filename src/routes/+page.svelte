@@ -35,7 +35,6 @@
     data = filterDataByClass("data");
     graphics = filterDataByClass("graphics");
     writing = filterDataByClass("writing");
-    maplab = filterDataByClass("maplab");
   }
   // now filter the json to get multiple categories
 </script>
@@ -43,10 +42,10 @@
 <div>
   <h1>Marie Patino</h1>
   <p>
-    I'm a graphics journalist based in Brooklyn, New York, currently working at
-    Bloomberg News. I maintained the Bloomberg CityLab <a href='https://www.bloomberg.com/citylab/maplab'>MapLab</a> newsletter for a bit, that's a newsletter about maps.
+    I'm a graphics and data journalist based in Brooklyn, New York, currently working at
+    Bloomberg News. I maintained the Bloomberg CityLab <a href='https://www.bloomberg.com/citylab/maplab'>MapLab</a> newsletter for a bit, that was a newsletter about maps.
   </p>
-  <p>Here's a selection of some of the things I've worked on</p>
+  <p>Here's a selection of some of the things I've worked on:</p>
 </div>
 <div class="list-work">
   <p class='header'>Graphics</p>
@@ -62,13 +61,7 @@
       <li><span class='date'>{d.date}</span> - <a href={d.url}>{d.title}</a></li>
     {/each}
   {/if}
-  
-  <p class='header'>Some writing about maps</p>
-  {#if $jsonData}
-    {#each maplab as map}
-      <li><span class='date'>{map.date}</span> - <a href={map.url}>{map.title}</a></li>
-    {/each}
-  {/if}
+
   
   <p class='header'>Some misc writing</p>
   {#if $jsonData}
@@ -79,6 +72,9 @@
 </div>
 
 <style>
+li{
+  margin-left:1em
+}
   h1,
   p,
   h3,

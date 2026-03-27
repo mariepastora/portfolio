@@ -12,7 +12,7 @@
 
   <footer>
     <p>
-      <a href="https://www.twitter.com/mariepastora">Twitter</a> | <a href="https://www.instagram.com/mariepastora/">Instagram</a> | <a href="https://www.goodreads.com/user/show/123909838-marie">Goodreads</a> | mariepastorapatino at gmail dot com
+      <a href="https://bsky.app/profile/mariepastora.bsky.social">Bluesky</a> | <a href="https://www.goodreads.com/user/show/123909838-marie">Goodreads</a> | mariepastorapatino at gmail dot com
     </p>
   </footer>
 </div>
